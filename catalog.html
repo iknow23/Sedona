@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Седона</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-main">
+            <nav class="menu-main">
+                <ul class="menu-list">
+                    <li class="menu-item"><a href="#">Информация</a></li>
+                    <li class="menu-item"><a href="#">Фото и видео</a></li>
+                    <li class="menu-item">
+                        <a href="#">
+                            <img src="" width="" height="" alt="">
+                        </a></li>
+                    <li class="menu-item"><a href="#">Карта штата</a></li>
+                    <li class="menu-item"><a href="#">Гостиницы</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="filters">
+            <form action="https://echo.htmlacademy.ru" method="get">
+                <fieldset class="filter-group filter-infrastructure">
+                    <legend>Инфраструктура:</legend>
+                    <ul>
+                        <li class="filter-option">
+                            <label for="swimming-pool">Бассейн</label>
+                            <input class="filter-input filter-checkbox" type="checkbox" id="swimming-pool" checked>
+                        </li>
+                        <li class="filter-option">
+                            <label for="parking">Парковка</label>
+                            <input class="filter-input filter-checkbox" type="checkbox" id="parking">
+                        </li>
+                        <li class="filter-option">
+                            <label for="wi-fi">Wi-Fi</label>
+                            <input class="filter-input filter-checkbox" type="checkbox" id="wi-fi">
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="filter-group filter-housing">
+                    <legend>Тип жилья:</legend>
+                    <ul>
+                        <li class="filter-option">
+                            <label for="hotel">Гостиница</label>
+                            <input class="filter-input filter-checkbox" type="checkbox" id="hotel" checked>
+                        </li>
+                        <li class="filter-option">
+                            <label for="motel">Мотель</label>
+                            <input class="filter-input filter-checkbox" type="checkbox" id="motel" checked>
+                        </li>
+                        <li class="filter-option">
+                            <label for="appartments">Аппартаменты</label>
+                            <input class="filter-input filter-checkbox" type="checkbox" id="appartments" checked>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="filter-group">
+                    <legend>Стоимость в сутки (Р):</legend>
+                    <div class="filter-range">
+                        <div class="price-controls">
+                            <label class="min-price">от<input type="text" name="min-price" value="0"></label>
+                            <label class="max=price">до<input type="text" name="max-price" value="3000"></label>
+                        </div>
+                        <div class="range-controls">
+                            <div class="scale">
+                                <div class="bar"></div>
+                            </div>
+                            <div class="toggle toggle-min"></div>
+                            <div class="toggle toggle-max"></div>
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit">Показать</button>
+            </form>
+        </div>
+        
+        <div class="search-results">
+            
+        </div>
+        
+        <footer class="footer-main">
+            <div class="footer-hashtag">
+                <h3 class="visually-hidden">Хэштэг Седоны</h3>
+                <a href="#">#visitsedona</a>
+            </div>
+            <div class="footer-social">
+                <h3 class="visually-hidden">Седона в социальных сетях</h3>
+                <ul class="social-list">
+                    <li class="social-item"><a href="#"><span class="visually-hidden">Твиттер</span></a></li>
+                    <li class="social-item"><a href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+                    <li class="social-item"><a href="#"><span class="visually-hidden">Ютуб</span></a></li>
+                </ul>
+            </div>
+            <div class="footer-logo">
+                <h3 class="visually-hidden">Переход на сайт HTML-Academy</h3>
+                <p>Visite by</p>
+                <a href="#">
+                    <img src="" width="" height="" alt="">
+                </a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
