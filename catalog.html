@@ -32,15 +32,15 @@
                     <legend>Инфраструктура:</legend>
                     <ul>
                         <li class="filter-option">
-                            <input class="filter-input filter-checkbox" type="checkbox" id="swimming-pool" checked>
+                            <input class="filter-input filter-checkbox visually-hidden" type="checkbox" id="swimming-pool" checked>
                             <label for="swimming-pool">Бассейн</label>
                         </li>
                         <li class="filter-option">
-                            <input class="filter-input filter-checkbox" type="checkbox" id="parking">
+                            <input class="filter-input filter-checkbox visually-hidden" type="checkbox" id="parking">
                             <label for="parking">Парковка</label>
                         </li>
                         <li class="filter-option">
-                            <input class="filter-input filter-checkbox" type="checkbox" id="wi-fi">
+                            <input class="filter-input filter-checkbox visually-hidden" type="checkbox" id="wi-fi">
                             <label for="wi-fi">Wi-Fi</label>
                         </li>
                     </ul>
@@ -49,36 +49,39 @@
                     <legend>Тип жилья:</legend>
                     <ul>
                         <li class="filter-option">
-                            <input class="filter-input filter-checkbox" type="checkbox" id="hotel" checked>
+                            <input class="filter-input filter-checkbox visually-hidden" type="checkbox" id="hotel" checked>
                             <label for="hotel">Гостиница</label>
                         </li>
                         <li class="filter-option">
-                            <input class="filter-input filter-checkbox" type="checkbox" id="motel" checked>
+                            <input class="filter-input filter-checkbox visually-hidden" type="checkbox" id="motel" checked>
                             <label for="motel">Мотель</label>
                         </li>
                         <li class="filter-option">
-                            <input class="filter-input filter-checkbox" type="checkbox" id="appartments" checked>
-                            <label for="appartments">Аппартаменты</label>
+                            <input class="filter-input filter-checkbox visually-hidden" type="checkbox" id="appartments" checked>
+                            <label for="appartments">Апартаменты</label>
                         </li>
                     </ul>
                 </fieldset>
                 <fieldset class="filter-group">
                     <legend>Стоимость в сутки (Р):</legend>
-                    <div class="filter-range">
-                        <div class="price-controls">
-                            <label class="min-price">от<input type="text" name="min-price" value="0"></label>
-                            <label class="max=price">до<input type="text" name="max-price" value="3000"></label>
-                        </div>
-                        <div class="range-controls">
-                            <div class="scale">
-                                <div class="bar"></div>
+                    <div class="f-wrap">
+                        <div class="filter-range">
+                            <div class="price-controls">
+                                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                                <label class="max=price">до <input type="text" name="max-price" value="3000"></label>
                             </div>
-                            <div class="toggle toggle-min"></div>
-                            <div class="toggle toggle-max"></div>
+                            <div class="range-controls">
+                                <div class="scale">
+                                    <div class="bar"></div>
+                                </div>
+                                <div class="toggle toggle-min"></div>
+                                <div class="toggle toggle-max"></div>
+                            </div>
                         </div>
+                        <button type="submit">Показать</button>
                     </div>
                 </fieldset>
-                <button type="submit">Показать</button>
+                
             </form>
         </section>
         
