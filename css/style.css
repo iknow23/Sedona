@@ -878,3 +878,103 @@ fieldset:last-of-type legend {
 .sorting-list li:nth-child(5) {
     margin-right: 9px;
 }
+
+.hotels-catalog {
+    padding: 0px 70px 1px 72px;
+}
+
+.catalog-item {
+	display: flex;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 22px;
+    margin-bottom: 30px;
+}
+
+.hotel-description {
+    padding-left: 30px;
+}
+
+.hotel-description h3 {
+    font-size: 22px;
+    margin-top: -6px;
+    padding-left: 2px;
+    margin-bottom: 5px;
+}
+
+.hotel-link {
+	display: flex;
+}
+
+.link-info {
+	margin-right: 7px;
+}
+
+.link-info span,
+.link-reserve span {
+    margin-bottom: 13px;
+}
+
+.link-info .hotel-type,
+.link-info a,
+.link-reserve span,
+.link-reserve a {
+	display: block;
+}
+
+.link-info a {
+	background-color: lightblue;
+    padding: 0px 16px 0px 18px;
+    color: #ffffff;
+}
+
+.link-reserve a {
+	background-color: burlywood;
+    padding: 0px 16px 0px 18px;
+    color: #ffffff;
+}
+
+.hotel-rating {
+    width: 96px;
+    margin-left: auto;
+}
+
+.star-list {
+	display: flex;
+    justify-content: flex-end;
+    margin-bottom: 43px;
+}
+
+.hotel-rating p {
+    margin: 0px;
+}
+
+.star-item a {
+    display: block;
+	width: 20px;
+    height: 20px;
+    margin-right: 4px;
+
+    background-image: url("../img/star.svg");
+    background-repeat: no-repeat;
+}
+
+.star-item:last-of-type a {
+    margin-right: 0px;
+}
+
+.footer-inner {
+    padding-top: 3px;
+}
+
+.footer-inner .footer-social {
+    margin-left: 33px;
+}
+
+.footer-inner .footer-logo p {
+    margin-right: 7px;
+    padding-top: 12px;
+}
+
+.footer-inner .footer-logo a {
+    padding-top: 7px;
+}
